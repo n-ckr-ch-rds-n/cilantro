@@ -4,14 +4,14 @@ import Wigglies from "./wigglies";
 import Smears from "./smears";
 import {FullScreenCanvas} from "solandra-react/lib";
 import {SCanvas} from "solandra";
-import {kvetch} from "./kvetch";
+import {kvetch, kvetch2} from "./kvetch";
 
 const App: React.FC = () => {
     return (
         <FullScreenCanvas
             playing
             seed={1}
-            sketch={kvetch}/>
+            sketch={kvetch2}/>
     );
 }
 
