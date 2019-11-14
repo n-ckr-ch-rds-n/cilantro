@@ -10,6 +10,8 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
+    "solandra": "^0.12.0",
+    "solandra-react": "0.0.1",
     "typescript": "3.7.2"
   },
   "scripts": {
